@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="StreamingRecommender" />
+        <module name="businessServer" />
+        <module name="OfflineRecommender" />
+        <module name="KafkaStreaming" />
+        <module name="ContentRecommender" />
+        <module name="DataLoader" />
+        <module name="website" />
+        <module name="StatisticsRecommender" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="untitled" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="-encoding utf-8" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ContentRecommender" options="" />
+      <module name="DataLoader" options="" />
+      <module name="KafkaStreaming" options="" />
+      <module name="MovieRecommendSystem1" options="" />
+      <module name="OfflineRecommender" options="" />
+      <module name="StatisticsRecommender" options="" />
+      <module name="StreamingRecommender" options="" />
+      <module name="businessServer" options="" />
+      <module name="recommender" options="" />
+      <module name="untitled" options="" />
+      <module name="website" options="" />
+    </option>
+  </component>
+</project>
